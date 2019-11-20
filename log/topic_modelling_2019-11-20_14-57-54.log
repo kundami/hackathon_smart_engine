@@ -1,0 +1,291 @@
+2019-11-20 15:00:28,978 : INFO : built Dictionary(0 unique tokens: []) from 0 documents (total 0 corpus positions)
+2019-11-20 15:13:04,657 : INFO : built Dictionary(0 unique tokens: []) from 0 documents (total 0 corpus positions)
+2019-11-20 15:21:31,129 : INFO : built Dictionary(0 unique tokens: []) from 0 documents (total 0 corpus positions)
+2019-11-20 15:23:57,884 : INFO : built Dictionary(0 unique tokens: []) from 0 documents (total 0 corpus positions)
+2019-11-20 15:25:17,306 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-11-20 15:25:17,582 : INFO : built Dictionary(6765 unique tokens: ['  ', '$', '1', '1.7', '10']...) from 152 documents (total 87043 corpus positions)
+2019-11-20 15:25:18,035 : INFO : using autotuned alpha, starting with [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+2019-11-20 15:25:18,035 : INFO : using serial LDA version on this node
+2019-11-20 15:25:18,066 : INFO : running online (multi-pass) LDA training, 10 topics, 20 passes over the supplied corpus of 152 documents, updating model once every 152 documents, evaluating perplexity every 152 documents, iterating 40x with a convergence threshold of 0.001000
+2019-11-20 15:25:18,082 : DEBUG : bound: at document #0
+2019-11-20 15:25:18,744 : INFO : -10.244 per-word bound, 1212.8 perplexity estimate based on a held-out corpus of 152 documents with 87043 words
+2019-11-20 15:25:18,744 : INFO : PROGRESS: pass 0, at document #152/152
+2019-11-20 15:25:18,744 : DEBUG : performing inference on a chunk of 152 documents
+2019-11-20 15:25:19,558 : DEBUG : 6/152 documents converged within 40 iterations
+2019-11-20 15:25:19,558 : INFO : optimized alpha [0.14454326, 0.15701222, 0.15484676, 0.15286177, 0.15633565, 0.15480897, 0.16223651, 0.15125108, 0.18045312, 0.16024919]
+2019-11-20 15:25:19,558 : DEBUG : updating topics
+2019-11-20 15:25:19,590 : INFO : topic #0 (0.145): 0.019*"market" + 0.014*"risk" + 0.009*"portfolio" + 0.008*"investment" + 0.008*"u.s" + 0.007*"security" + 0.006*"rate" + 0.006*"company" + 0.006*"s" + 0.006*"global"
+2019-11-20 15:25:19,590 : INFO : topic #7 (0.151): 0.016*"market" + 0.010*"risk" + 0.010*"u.s" + 0.009*"investment" + 0.006*"s" + 0.006*"year" + 0.006*"rate" + 0.006*"portfolio" + 0.006*"high" + 0.005*"credit"
+2019-11-20 15:25:19,590 : INFO : topic #9 (0.160): 0.019*"risk" + 0.017*"market" + 0.012*"rate" + 0.009*"security" + 0.008*"u.s" + 0.008*"portfolio" + 0.008*"credit" + 0.006*"company" + 0.006*"investment" + 0.006*"year"
+2019-11-20 15:25:19,590 : INFO : topic #6 (0.162): 0.019*"market" + 0.017*"risk" + 0.011*"rate" + 0.010*"u.s" + 0.008*"security" + 0.007*"company" + 0.007*"year" + 0.007*"portfolio" + 0.006*"growth" + 0.006*"high"
+2019-11-20 15:25:19,590 : INFO : topic #8 (0.180): 0.021*"market" + 0.019*"risk" + 0.009*"investment" + 0.008*"company" + 0.008*"portfolio" + 0.007*"s" + 0.006*"security" + 0.006*"u.s" + 0.006*"high" + 0.006*"strategy"
+2019-11-20 15:25:19,590 : INFO : topic diff=3.474180, rho=1.000000
+2019-11-20 15:25:19,621 : DEBUG : bound: at document #0
+2019-11-20 15:25:20,635 : INFO : -7.788 per-word bound, 221.1 perplexity estimate based on a held-out corpus of 152 documents with 87043 words
+2019-11-20 15:25:20,639 : INFO : PROGRESS: pass 1, at document #152/152
+2019-11-20 15:25:20,639 : DEBUG : performing inference on a chunk of 152 documents
+2019-11-20 15:25:21,125 : DEBUG : 50/152 documents converged within 40 iterations
+2019-11-20 15:25:21,136 : INFO : optimized alpha [0.07417203, 0.090922885, 0.092556015, 0.0917273, 0.10064109, 0.11073449, 0.1526383, 0.088565335, 0.18883751, 0.11908749]
+2019-11-20 15:25:21,136 : DEBUG : updating topics
+2019-11-20 15:25:21,152 : INFO : topic #0 (0.074): 0.016*"market" + 0.012*"risk" + 0.008*"portfolio" + 0.007*"investment" + 0.007*"u.s" + 0.006*"s" + 0.006*"security" + 0.005*"rate" + 0.005*"company" + 0.005*"global"
+2019-11-20 15:25:21,153 : INFO : topic #7 (0.089): 0.012*"market" + 0.010*"loan" + 0.009*"u.s" + 0.008*"alternative" + 0.008*"risk" + 0.008*"lending" + 0.007*"investment" + 0.007*"credit" + 0.007*"s" + 0.006*"consumer"
+2019-11-20 15:25:21,153 : INFO : topic #9 (0.119): 0.022*"risk" + 0.016*"market" + 0.012*"rate" + 0.010*"security" + 0.009*"portfolio" + 0.008*"credit" + 0.008*"water" + 0.008*"u.s" + 0.007*"investment" + 0.006*"company"
+2019-11-20 15:25:21,154 : INFO : topic #6 (0.153): 0.020*"market" + 0.018*"risk" + 0.013*"rate" + 0.013*"u.s" + 0.008*"security" + 0.008*"credit" + 0.008*"yield" + 0.008*"year" + 0.007*"high" + 0.007*"growth"
+2019-11-20 15:25:21,154 : INFO : topic #8 (0.189): 0.022*"market" + 0.018*"risk" + 0.012*"company" + 0.011*"portfolio" + 0.010*"investment" + 0.008*"s" + 0.007*"strategy" + 0.007*"security" + 0.006*"value" + 0.006*"global"
+2019-11-20 15:25:21,156 : INFO : topic diff=1.299844, rho=0.577350
+2019-11-20 15:25:21,192 : DEBUG : bound: at document #0
+2019-11-20 15:25:22,241 : INFO : -7.373 per-word bound, 165.8 perplexity estimate based on a held-out corpus of 152 documents with 87043 words
+2019-11-20 15:25:22,241 : INFO : PROGRESS: pass 2, at document #152/152
+2019-11-20 15:25:22,241 : DEBUG : performing inference on a chunk of 152 documents
+2019-11-20 15:25:22,626 : DEBUG : 96/152 documents converged within 40 iterations
+2019-11-20 15:25:22,641 : INFO : optimized alpha [0.05621797, 0.069287464, 0.07096121, 0.06652593, 0.074862845, 0.07938599, 0.13265273, 0.06673694, 0.17089595, 0.08216076]
+2019-11-20 15:25:22,641 : DEBUG : updating topics
+2019-11-20 15:25:22,641 : INFO : topic #0 (0.056): 0.012*"market" + 0.009*"risk" + 0.008*"portfolio" + 0.006*"s" + 0.005*"investment" + 0.005*"u.s" + 0.005*"security" + 0.004*"performance" + 0.004*"rate" + 0.004*"company"
+2019-11-20 15:25:22,657 : INFO : topic #3 (0.067): 0.016*"climate" + 0.015*"risk" + 0.014*"asset" + 0.011*"investor" + 0.009*"market" + 0.009*"resilience" + 0.008*"investment" + 0.007*"change" + 0.007*"real" + 0.007*"s"
+2019-11-20 15:25:22,657 : INFO : topic #9 (0.082): 0.023*"risk" + 0.015*"market" + 0.013*"water" + 0.011*"rate" + 0.010*"security" + 0.009*"portfolio" + 0.009*"investment" + 0.007*"credit" + 0.006*"company" + 0.006*"u.s"
+2019-11-20 15:25:22,657 : INFO : topic #6 (0.133): 0.020*"market" + 0.019*"risk" + 0.015*"rate" + 0.014*"u.s" + 0.009*"credit" + 0.009*"security" + 0.008*"yield" + 0.008*"year" + 0.007*"high" + 0.007*"interest"
+2019-11-20 15:25:22,657 : INFO : topic #8 (0.171): 0.022*"market" + 0.018*"risk" + 0.014*"company" + 0.012*"portfolio" + 0.010*"investment" + 0.008*"s" + 0.007*"strategy" + 0.007*"value" + 0.007*"security" + 0.006*"global"
+2019-11-20 15:25:22,657 : INFO : topic diff=0.939255, rho=0.500000
+2019-11-20 15:25:22,688 : DEBUG : bound: at document #0
+2019-11-20 15:25:23,253 : INFO : -7.233 per-word bound, 150.4 perplexity estimate based on a held-out corpus of 152 documents with 87043 words
+2019-11-20 15:25:23,253 : INFO : PROGRESS: pass 3, at document #152/152
+2019-11-20 15:25:23,253 : DEBUG : performing inference on a chunk of 152 documents
+2019-11-20 15:25:23,430 : DEBUG : 103/152 documents converged within 40 iterations
+2019-11-20 15:25:23,432 : INFO : optimized alpha [0.04658934, 0.05781804, 0.05931051, 0.05458439, 0.06230145, 0.06379673, 0.120510854, 0.055715024, 0.15743951, 0.065586664]
+2019-11-20 15:25:23,432 : DEBUG : updating topics
+2019-11-20 15:25:23,443 : INFO : topic #0 (0.047): 0.009*"market" + 0.007*"portfolio" + 0.007*"risk" + 0.006*"s" + 0.004*"investment" + 0.004*"performance" + 0.004*"u.s" + 0.004*"year" + 0.003*"security" + 0.003*"rate"
+2019-11-20 15:25:23,443 : INFO : topic #3 (0.055): 0.019*"climate" + 0.016*"risk" + 0.015*"asset" + 0.012*"investor" + 0.011*"resilience" + 0.008*"real" + 0.008*"market" + 0.008*"investment" + 0.007*"change" + 0.007*"s"
+2019-11-20 15:25:23,443 : INFO : topic #9 (0.066): 0.024*"risk" + 0.017*"water" + 0.014*"market" + 0.011*"investment" + 0.010*"rate" + 0.009*"portfolio" + 0.009*"security" + 0.007*"company" + 0.006*"asset" + 0.006*"interest"
+2019-11-20 15:25:23,444 : INFO : topic #6 (0.121): 0.020*"market" + 0.020*"risk" + 0.016*"rate" + 0.015*"u.s" + 0.010*"credit" + 0.009*"security" + 0.009*"yield" + 0.008*"year" + 0.008*"interest" + 0.007*"high"
+2019-11-20 15:25:23,444 : INFO : topic #8 (0.157): 0.022*"market" + 0.018*"risk" + 0.015*"company" + 0.012*"portfolio" + 0.010*"investment" + 0.008*"s" + 0.007*"value" + 0.007*"strategy" + 0.007*"security" + 0.006*"global"
+2019-11-20 15:25:23,444 : INFO : topic diff=0.671718, rho=0.447214
+2019-11-20 15:25:23,463 : DEBUG : bound: at document #0
+2019-11-20 15:25:23,870 : INFO : -7.178 per-word bound, 144.8 perplexity estimate based on a held-out corpus of 152 documents with 87043 words
+2019-11-20 15:25:23,870 : INFO : PROGRESS: pass 4, at document #152/152
+2019-11-20 15:25:23,870 : DEBUG : performing inference on a chunk of 152 documents
+2019-11-20 15:25:24,071 : DEBUG : 112/152 documents converged within 40 iterations
+2019-11-20 15:25:24,072 : INFO : optimized alpha [0.040512867, 0.05052112, 0.053001672, 0.047170725, 0.054705717, 0.05424788, 0.113585584, 0.048703, 0.14744772, 0.055790994]
+2019-11-20 15:25:24,072 : DEBUG : updating topics
+2019-11-20 15:25:24,084 : INFO : topic #0 (0.041): 0.007*"portfolio" + 0.006*"market" + 0.006*"s" + 0.005*"risk" + 0.004*"barron" + 0.004*"performance" + 0.003*"year" + 0.003*"opportunity" + 0.003*"article" + 0.003*"investment"
+2019-11-20 15:25:24,084 : INFO : topic #3 (0.047): 0.021*"climate" + 0.016*"asset" + 0.016*"risk" + 0.013*"investor" + 0.011*"resilience" + 0.009*"real" + 0.008*"investment" + 0.008*"change" + 0.007*"market" + 0.007*"design"
+2019-11-20 15:25:24,085 : INFO : topic #9 (0.056): 0.023*"risk" + 0.020*"water" + 0.013*"market" + 0.012*"investment" + 0.009*"portfolio" + 0.008*"rate" + 0.008*"security" + 0.008*"company" + 0.007*"asset" + 0.006*"esg"
+2019-11-20 15:25:24,085 : INFO : topic #6 (0.114): 0.021*"risk" + 0.021*"market" + 0.016*"rate" + 0.015*"u.s" + 0.010*"credit" + 0.010*"security" + 0.009*"yield" + 0.008*"interest" + 0.008*"year" + 0.008*"high"
+2019-11-20 15:25:24,085 : INFO : topic #8 (0.147): 0.022*"market" + 0.017*"risk" + 0.016*"company" + 0.012*"portfolio" + 0.010*"investment" + 0.008*"s" + 0.007*"value" + 0.007*"strategy" + 0.007*"security" + 0.006*"global"
+2019-11-20 15:25:24,086 : INFO : topic diff=0.485911, rho=0.408248
+2019-11-20 15:25:24,109 : DEBUG : bound: at document #0
+2019-11-20 15:25:24,508 : INFO : -7.156 per-word bound, 142.7 perplexity estimate based on a held-out corpus of 152 documents with 87043 words
+2019-11-20 15:25:24,508 : INFO : PROGRESS: pass 5, at document #152/152
+2019-11-20 15:25:24,508 : DEBUG : performing inference on a chunk of 152 documents
+2019-11-20 15:25:24,679 : DEBUG : 117/152 documents converged within 40 iterations
+2019-11-20 15:25:24,680 : INFO : optimized alpha [0.036297623, 0.04561802, 0.048501212, 0.04202672, 0.049592406, 0.047865573, 0.10935868, 0.043865368, 0.14103585, 0.049277674]
+2019-11-20 15:25:24,680 : DEBUG : updating topics
+2019-11-20 15:25:24,691 : INFO : topic #0 (0.036): 0.006*"portfolio" + 0.006*"s" + 0.005*"market" + 0.004*"barron" + 0.004*"article" + 0.003*"risk" + 0.003*"opportunity" + 0.003*"performance" + 0.003*"international" + 0.003*"year"
+2019-11-20 15:25:24,691 : INFO : topic #3 (0.042): 0.023*"climate" + 0.016*"asset" + 0.016*"risk" + 0.014*"investor" + 0.012*"resilience" + 0.009*"real" + 0.008*"investment" + 0.008*"change" + 0.007*"design" + 0.007*"s"
+2019-11-20 15:25:24,691 : INFO : topic #4 (0.050): 0.021*"company" + 0.019*"market" + 0.012*"risk" + 0.011*"plastic" + 0.008*"value" + 0.008*"portfolio" + 0.007*"consumer" + 0.007*"investment" + 0.007*"s" + 0.006*"increase"
+2019-11-20 15:25:24,692 : INFO : topic #6 (0.109): 0.021*"risk" + 0.021*"market" + 0.017*"rate" + 0.015*"u.s" + 0.010*"credit" + 0.010*"security" + 0.009*"yield" + 0.008*"interest" + 0.008*"year" + 0.008*"high"
+2019-11-20 15:25:24,692 : INFO : topic #8 (0.141): 0.022*"market" + 0.017*"risk" + 0.016*"company" + 0.012*"portfolio" + 0.010*"investment" + 0.009*"s" + 0.007*"value" + 0.007*"security" + 0.007*"strategy" + 0.006*"global"
+2019-11-20 15:25:24,693 : INFO : topic diff=0.355688, rho=0.377964
+2019-11-20 15:25:24,714 : DEBUG : bound: at document #0
+2019-11-20 15:25:25,101 : INFO : -7.149 per-word bound, 141.9 perplexity estimate based on a held-out corpus of 152 documents with 87043 words
+2019-11-20 15:25:25,101 : INFO : PROGRESS: pass 6, at document #152/152
+2019-11-20 15:25:25,102 : DEBUG : performing inference on a chunk of 152 documents
+2019-11-20 15:25:25,262 : DEBUG : 115/152 documents converged within 40 iterations
+2019-11-20 15:25:25,263 : INFO : optimized alpha [0.03310563, 0.042112913, 0.045087837, 0.038312264, 0.04581011, 0.043242395, 0.10759233, 0.040255293, 0.13600226, 0.04457496]
+2019-11-20 15:25:25,264 : DEBUG : updating topics
+2019-11-20 15:25:25,274 : INFO : topic #0 (0.033): 0.006*"portfolio" + 0.006*"s" + 0.005*"article" + 0.005*"barron" + 0.004*"opportunity" + 0.003*"international" + 0.003*"heugh" + 0.003*"market" + 0.003*"performance" + 0.003*"year"
+2019-11-20 15:25:25,275 : INFO : topic #3 (0.038): 0.024*"climate" + 0.017*"asset" + 0.016*"risk" + 0.014*"investor" + 0.012*"resilience" + 0.009*"real" + 0.008*"change" + 0.008*"investment" + 0.007*"design" + 0.007*"s"
+2019-11-20 15:25:25,275 : INFO : topic #4 (0.046): 0.021*"company" + 0.019*"market" + 0.012*"risk" + 0.012*"plastic" + 0.008*"value" + 0.008*"portfolio" + 0.008*"consumer" + 0.007*"investment" + 0.007*"s" + 0.006*"increase"
+2019-11-20 15:25:25,275 : INFO : topic #6 (0.108): 0.022*"risk" + 0.021*"market" + 0.017*"rate" + 0.016*"u.s" + 0.011*"credit" + 0.010*"security" + 0.009*"yield" + 0.008*"interest" + 0.008*"year" + 0.008*"high"
+2019-11-20 15:25:25,276 : INFO : topic #8 (0.136): 0.022*"market" + 0.017*"risk" + 0.017*"company" + 0.012*"portfolio" + 0.010*"investment" + 0.009*"s" + 0.007*"value" + 0.007*"security" + 0.007*"strategy" + 0.006*"global"
+2019-11-20 15:25:25,276 : INFO : topic diff=0.263227, rho=0.353553
+2019-11-20 15:25:25,299 : DEBUG : bound: at document #0
+2019-11-20 15:25:25,708 : INFO : -7.148 per-word bound, 141.8 perplexity estimate based on a held-out corpus of 152 documents with 87043 words
+2019-11-20 15:25:25,708 : INFO : PROGRESS: pass 7, at document #152/152
+2019-11-20 15:25:25,708 : DEBUG : performing inference on a chunk of 152 documents
+2019-11-20 15:25:25,870 : DEBUG : 116/152 documents converged within 40 iterations
+2019-11-20 15:25:25,870 : INFO : optimized alpha [0.030584218, 0.03911291, 0.042601675, 0.035528407, 0.042848557, 0.039803218, 0.10649443, 0.037420474, 0.13185517, 0.04115193]
+2019-11-20 15:25:25,870 : DEBUG : updating topics
+2019-11-20 15:25:25,886 : INFO : topic #0 (0.031): 0.006*"portfolio" + 0.006*"article" + 0.006*"s" + 0.005*"barron" + 0.004*"opportunity" + 0.004*"international" + 0.004*"heugh" + 0.003*"performance" + 0.003*"year" + 0.003*"icon"
+2019-11-20 15:25:25,886 : INFO : topic #3 (0.036): 0.025*"climate" + 0.017*"asset" + 0.016*"risk" + 0.014*"investor" + 0.012*"resilience" + 0.009*"real" + 0.008*"change" + 0.008*"investment" + 0.008*"design" + 0.007*"s"
+2019-11-20 15:25:25,886 : INFO : topic #4 (0.043): 0.021*"company" + 0.019*"market" + 0.012*"plastic" + 0.012*"risk" + 0.008*"value" + 0.008*"portfolio" + 0.008*"consumer" + 0.007*"investment" + 0.007*"s" + 0.006*"increase"
+2019-11-20 15:25:25,886 : INFO : topic #6 (0.106): 0.022*"risk" + 0.021*"market" + 0.017*"rate" + 0.016*"u.s" + 0.011*"credit" + 0.010*"security" + 0.009*"yield" + 0.009*"interest" + 0.008*"year" + 0.008*"low"
+2019-11-20 15:25:25,886 : INFO : topic #8 (0.132): 0.022*"market" + 0.017*"risk" + 0.017*"company" + 0.012*"portfolio" + 0.010*"investment" + 0.009*"s" + 0.007*"value" + 0.007*"security" + 0.007*"strategy" + 0.006*"global"
+2019-11-20 15:25:25,886 : INFO : topic diff=0.196948, rho=0.333333
+2019-11-20 15:25:25,902 : DEBUG : bound: at document #0
+2019-11-20 15:25:26,378 : INFO : -7.149 per-word bound, 142.0 perplexity estimate based on a held-out corpus of 152 documents with 87043 words
+2019-11-20 15:25:26,378 : INFO : PROGRESS: pass 8, at document #152/152
+2019-11-20 15:25:26,378 : DEBUG : performing inference on a chunk of 152 documents
+2019-11-20 15:25:26,549 : DEBUG : 116/152 documents converged within 40 iterations
+2019-11-20 15:25:26,549 : INFO : optimized alpha [0.028529946, 0.036648978, 0.040662788, 0.033246927, 0.040441085, 0.037069112, 0.10543514, 0.035120726, 0.12859048, 0.03845544]
+2019-11-20 15:25:26,549 : DEBUG : updating topics
+2019-11-20 15:25:26,565 : INFO : topic #0 (0.029): 0.006*"article" + 0.006*"s" + 0.006*"portfolio" + 0.005*"barron" + 0.004*"opportunity" + 0.004*"international" + 0.004*"heugh" + 0.003*"icon" + 0.003*"complete" + 0.003*"performance"
+2019-11-20 15:25:26,565 : INFO : topic #3 (0.033): 0.025*"climate" + 0.017*"asset" + 0.016*"risk" + 0.015*"investor" + 0.012*"resilience" + 0.009*"real" + 0.008*"change" + 0.008*"investment" + 0.008*"design" + 0.007*"level"
+2019-11-20 15:25:26,565 : INFO : topic #2 (0.041): 0.019*"esg" + 0.017*"investment" + 0.012*"fund" + 0.012*"market" + 0.011*"asset" + 0.010*"equity" + 0.010*"factor" + 0.009*"hedge" + 0.009*"investor" + 0.008*"risk"
+2019-11-20 15:25:26,565 : INFO : topic #6 (0.105): 0.022*"risk" + 0.021*"market" + 0.017*"rate" + 0.016*"u.s" + 0.011*"credit" + 0.010*"security" + 0.009*"yield" + 0.009*"interest" + 0.008*"year" + 0.008*"low"
+2019-11-20 15:25:26,565 : INFO : topic #8 (0.129): 0.022*"market" + 0.017*"risk" + 0.017*"company" + 0.013*"portfolio" + 0.010*"investment" + 0.009*"s" + 0.008*"value" + 0.007*"security" + 0.007*"strategy" + 0.006*"global"
+2019-11-20 15:25:26,565 : INFO : topic diff=0.149037, rho=0.316228
+2019-11-20 15:25:26,601 : DEBUG : bound: at document #0
+2019-11-20 15:25:26,987 : INFO : -7.151 per-word bound, 142.1 perplexity estimate based on a held-out corpus of 152 documents with 87043 words
+2019-11-20 15:25:26,987 : INFO : PROGRESS: pass 9, at document #152/152
+2019-11-20 15:25:26,991 : DEBUG : performing inference on a chunk of 152 documents
+2019-11-20 15:25:27,211 : DEBUG : 120/152 documents converged within 40 iterations
+2019-11-20 15:25:27,213 : INFO : optimized alpha [0.026818013, 0.03454026, 0.039111406, 0.031355683, 0.038439613, 0.034831315, 0.10487114, 0.033211447, 0.12584147, 0.036248997]
+2019-11-20 15:25:27,213 : DEBUG : updating topics
+2019-11-20 15:25:27,224 : INFO : topic #0 (0.027): 0.007*"article" + 0.006*"s" + 0.006*"portfolio" + 0.005*"barron" + 0.004*"opportunity" + 0.004*"international" + 0.004*"heugh" + 0.003*"icon" + 0.003*"complete" + 0.003*"performance"
+2019-11-20 15:25:27,224 : INFO : topic #3 (0.031): 0.026*"climate" + 0.017*"asset" + 0.016*"risk" + 0.015*"investor" + 0.012*"resilience" + 0.009*"real" + 0.008*"change" + 0.008*"investment" + 0.008*"design" + 0.007*"level"
+2019-11-20 15:25:27,224 : INFO : topic #2 (0.039): 0.020*"esg" + 0.017*"investment" + 0.013*"fund" + 0.012*"market" + 0.011*"asset" + 0.010*"equity" + 0.010*"factor" + 0.009*"hedge" + 0.009*"investor" + 0.009*"risk"
+2019-11-20 15:25:27,225 : INFO : topic #6 (0.105): 0.022*"risk" + 0.021*"market" + 0.018*"rate" + 0.016*"u.s" + 0.011*"credit" + 0.010*"security" + 0.009*"yield" + 0.009*"interest" + 0.008*"year" + 0.008*"low"
+2019-11-20 15:25:27,225 : INFO : topic #8 (0.126): 0.022*"market" + 0.017*"risk" + 0.017*"company" + 0.013*"portfolio" + 0.010*"investment" + 0.009*"s" + 0.008*"value" + 0.007*"security" + 0.007*"strategy" + 0.006*"global"
+2019-11-20 15:25:27,225 : INFO : topic diff=0.114021, rho=0.301511
+2019-11-20 15:25:27,247 : DEBUG : bound: at document #0
+2019-11-20 15:25:27,667 : INFO : -7.153 per-word bound, 142.3 perplexity estimate based on a held-out corpus of 152 documents with 87043 words
+2019-11-20 15:25:27,668 : INFO : PROGRESS: pass 10, at document #152/152
+2019-11-20 15:25:27,668 : DEBUG : performing inference on a chunk of 152 documents
+2019-11-20 15:25:27,807 : DEBUG : 122/152 documents converged within 40 iterations
+2019-11-20 15:25:27,807 : INFO : optimized alpha [0.025362946, 0.032766037, 0.037780385, 0.029754324, 0.036733795, 0.03295615, 0.10428831, 0.031593166, 0.12332362, 0.03439914]
+2019-11-20 15:25:27,807 : DEBUG : updating topics
+2019-11-20 15:25:27,824 : INFO : topic #0 (0.025): 0.007*"article" + 0.006*"s" + 0.006*"portfolio" + 0.005*"barron" + 0.004*"opportunity" + 0.004*"international" + 0.004*"heugh" + 0.004*"icon" + 0.003*"complete" + 0.003*"year"
+2019-11-20 15:25:27,824 : INFO : topic #3 (0.030): 0.027*"climate" + 0.017*"asset" + 0.016*"risk" + 0.015*"investor" + 0.013*"resilience" + 0.009*"real" + 0.009*"change" + 0.008*"investment" + 0.008*"design" + 0.007*"level"
+2019-11-20 15:25:27,824 : INFO : topic #2 (0.038): 0.020*"esg" + 0.017*"investment" + 0.012*"fund" + 0.012*"market" + 0.011*"asset" + 0.010*"equity" + 0.010*"factor" + 0.009*"hedge" + 0.009*"investor" + 0.009*"risk"
+2019-11-20 15:25:27,824 : INFO : topic #6 (0.104): 0.022*"risk" + 0.021*"market" + 0.018*"rate" + 0.016*"u.s" + 0.011*"credit" + 0.010*"security" + 0.009*"yield" + 0.009*"interest" + 0.008*"year" + 0.008*"low"
+2019-11-20 15:25:27,824 : INFO : topic #8 (0.123): 0.022*"market" + 0.017*"risk" + 0.017*"company" + 0.013*"portfolio" + 0.010*"investment" + 0.009*"s" + 0.008*"value" + 0.007*"security" + 0.007*"strategy" + 0.006*"global"
+2019-11-20 15:25:27,824 : INFO : topic diff=0.088192, rho=0.288675
+2019-11-20 15:25:27,856 : DEBUG : bound: at document #0
+2019-11-20 15:25:28,323 : INFO : -7.154 per-word bound, 142.4 perplexity estimate based on a held-out corpus of 152 documents with 87043 words
+2019-11-20 15:25:28,323 : INFO : PROGRESS: pass 11, at document #152/152
+2019-11-20 15:25:28,323 : DEBUG : performing inference on a chunk of 152 documents
+2019-11-20 15:25:28,511 : DEBUG : 120/152 documents converged within 40 iterations
+2019-11-20 15:25:28,511 : INFO : optimized alpha [0.024108352, 0.031249478, 0.03669244, 0.028378079, 0.03526757, 0.03135873, 0.10369773, 0.030260043, 0.12115371, 0.03282235]
+2019-11-20 15:25:28,511 : DEBUG : updating topics
+2019-11-20 15:25:28,526 : INFO : topic #0 (0.024): 0.008*"article" + 0.006*"s" + 0.005*"portfolio" + 0.005*"barron" + 0.004*"opportunity" + 0.004*"international" + 0.004*"heugh" + 0.004*"icon" + 0.004*"complete" + 0.003*"pdf"
+2019-11-20 15:25:28,526 : INFO : topic #3 (0.028): 0.027*"climate" + 0.017*"asset" + 0.016*"risk" + 0.015*"investor" + 0.013*"resilience" + 0.009*"real" + 0.009*"change" + 0.008*"design" + 0.008*"investment" + 0.007*"level"
+2019-11-20 15:25:28,526 : INFO : topic #2 (0.037): 0.020*"esg" + 0.017*"investment" + 0.012*"fund" + 0.012*"market" + 0.011*"asset" + 0.011*"equity" + 0.010*"factor" + 0.009*"investor" + 0.009*"hedge" + 0.009*"manager"
+2019-11-20 15:25:28,526 : INFO : topic #6 (0.104): 0.022*"risk" + 0.021*"market" + 0.018*"rate" + 0.016*"u.s" + 0.011*"credit" + 0.010*"security" + 0.009*"yield" + 0.009*"interest" + 0.008*"year" + 0.008*"low"
+2019-11-20 15:25:28,526 : INFO : topic #8 (0.121): 0.022*"market" + 0.017*"company" + 0.017*"risk" + 0.013*"portfolio" + 0.010*"investment" + 0.009*"s" + 0.008*"value" + 0.007*"security" + 0.007*"strategy" + 0.006*"global"
+2019-11-20 15:25:28,526 : INFO : topic diff=0.068990, rho=0.277350
+2019-11-20 15:25:28,557 : DEBUG : bound: at document #0
+2019-11-20 15:25:29,194 : INFO : -7.155 per-word bound, 142.5 perplexity estimate based on a held-out corpus of 152 documents with 87043 words
+2019-11-20 15:25:29,194 : INFO : PROGRESS: pass 12, at document #152/152
+2019-11-20 15:25:29,194 : DEBUG : performing inference on a chunk of 152 documents
+2019-11-20 15:25:29,466 : DEBUG : 120/152 documents converged within 40 iterations
+2019-11-20 15:25:29,466 : INFO : optimized alpha [0.023013823, 0.029936569, 0.035813015, 0.027180953, 0.033974223, 0.029979711, 0.10335927, 0.029098893, 0.11929622, 0.031460397]
+2019-11-20 15:25:29,466 : DEBUG : updating topics
+2019-11-20 15:25:29,482 : INFO : topic #0 (0.023): 0.008*"article" + 0.006*"s" + 0.005*"portfolio" + 0.005*"barron" + 0.004*"opportunity" + 0.004*"international" + 0.004*"heugh" + 0.004*"icon" + 0.004*"complete" + 0.003*"pdf"
+2019-11-20 15:25:29,482 : INFO : topic #3 (0.027): 0.027*"climate" + 0.017*"asset" + 0.016*"risk" + 0.015*"investor" + 0.013*"resilience" + 0.010*"real" + 0.009*"change" + 0.008*"design" + 0.008*"investment" + 0.007*"level"
+2019-11-20 15:25:29,482 : INFO : topic #2 (0.036): 0.020*"esg" + 0.017*"investment" + 0.012*"fund" + 0.012*"market" + 0.011*"asset" + 0.011*"equity" + 0.010*"factor" + 0.010*"investor" + 0.009*"hedge" + 0.009*"manager"
+2019-11-20 15:25:29,482 : INFO : topic #6 (0.103): 0.022*"risk" + 0.021*"market" + 0.018*"rate" + 0.016*"u.s" + 0.011*"credit" + 0.010*"security" + 0.009*"yield" + 0.009*"interest" + 0.008*"year" + 0.008*"low"
+2019-11-20 15:25:29,482 : INFO : topic #8 (0.119): 0.022*"market" + 0.017*"company" + 0.017*"risk" + 0.013*"portfolio" + 0.010*"investment" + 0.009*"s" + 0.008*"value" + 0.007*"security" + 0.006*"strategy" + 0.006*"global"
+2019-11-20 15:25:29,482 : INFO : topic diff=0.054620, rho=0.267261
+2019-11-20 15:25:29,513 : DEBUG : bound: at document #0
+2019-11-20 15:25:30,237 : INFO : -7.156 per-word bound, 142.6 perplexity estimate based on a held-out corpus of 152 documents with 87043 words
+2019-11-20 15:25:30,237 : INFO : PROGRESS: pass 13, at document #152/152
+2019-11-20 15:25:30,237 : DEBUG : performing inference on a chunk of 152 documents
+2019-11-20 15:25:30,519 : DEBUG : 125/152 documents converged within 40 iterations
+2019-11-20 15:25:30,519 : INFO : optimized alpha [0.022048127, 0.028785627, 0.03509202, 0.026127253, 0.032855116, 0.028773798, 0.10298059, 0.028074892, 0.11763542, 0.03026875]
+2019-11-20 15:25:30,519 : DEBUG : updating topics
+2019-11-20 15:25:30,534 : INFO : topic #0 (0.022): 0.008*"article" + 0.006*"s" + 0.005*"portfolio" + 0.005*"barron" + 0.004*"opportunity" + 0.004*"international" + 0.004*"heugh" + 0.004*"icon" + 0.004*"complete" + 0.003*"pdf"
+2019-11-20 15:25:30,534 : INFO : topic #3 (0.026): 0.028*"climate" + 0.017*"asset" + 0.016*"risk" + 0.015*"investor" + 0.013*"resilience" + 0.010*"real" + 0.009*"change" + 0.008*"design" + 0.008*"investment" + 0.007*"level"
+2019-11-20 15:25:30,534 : INFO : topic #2 (0.035): 0.020*"esg" + 0.017*"investment" + 0.012*"fund" + 0.012*"market" + 0.011*"asset" + 0.011*"equity" + 0.011*"factor" + 0.010*"investor" + 0.009*"hedge" + 0.009*"manager"
+2019-11-20 15:25:30,534 : INFO : topic #6 (0.103): 0.023*"risk" + 0.021*"market" + 0.018*"rate" + 0.016*"u.s" + 0.011*"credit" + 0.010*"security" + 0.009*"yield" + 0.009*"interest" + 0.008*"year" + 0.008*"low"
+2019-11-20 15:25:30,534 : INFO : topic #8 (0.118): 0.022*"market" + 0.017*"company" + 0.017*"risk" + 0.013*"portfolio" + 0.010*"investment" + 0.009*"s" + 0.008*"value" + 0.007*"security" + 0.006*"strategy" + 0.006*"global"
+2019-11-20 15:25:30,534 : INFO : topic diff=0.043783, rho=0.258199
+2019-11-20 15:25:30,566 : DEBUG : bound: at document #0
+2019-11-20 15:25:31,297 : INFO : -7.157 per-word bound, 142.7 perplexity estimate based on a held-out corpus of 152 documents with 87043 words
+2019-11-20 15:25:31,297 : INFO : PROGRESS: pass 14, at document #152/152
+2019-11-20 15:25:31,297 : DEBUG : performing inference on a chunk of 152 documents
+2019-11-20 15:25:31,569 : DEBUG : 124/152 documents converged within 40 iterations
+2019-11-20 15:25:31,569 : INFO : optimized alpha [0.021188242, 0.027766505, 0.034462307, 0.025190929, 0.03186024, 0.02770833, 0.10256194, 0.027163291, 0.11615785, 0.029215328]
+2019-11-20 15:25:31,569 : DEBUG : updating topics
+2019-11-20 15:25:31,585 : INFO : topic #0 (0.021): 0.008*"article" + 0.006*"s" + 0.005*"portfolio" + 0.005*"barron" + 0.004*"opportunity" + 0.004*"international" + 0.004*"heugh" + 0.004*"icon" + 0.004*"complete" + 0.003*"highlight"
+2019-11-20 15:25:31,585 : INFO : topic #3 (0.025): 0.028*"climate" + 0.017*"asset" + 0.016*"risk" + 0.015*"investor" + 0.013*"resilience" + 0.010*"real" + 0.009*"change" + 0.008*"design" + 0.008*"investment" + 0.007*"level"
+2019-11-20 15:25:31,585 : INFO : topic #2 (0.034): 0.020*"esg" + 0.017*"investment" + 0.012*"fund" + 0.012*"market" + 0.011*"asset" + 0.011*"equity" + 0.011*"factor" + 0.010*"investor" + 0.009*"hedge" + 0.009*"manager"
+2019-11-20 15:25:31,585 : INFO : topic #6 (0.103): 0.023*"risk" + 0.021*"market" + 0.018*"rate" + 0.016*"u.s" + 0.011*"credit" + 0.010*"security" + 0.009*"interest" + 0.009*"yield" + 0.008*"year" + 0.008*"low"
+2019-11-20 15:25:31,585 : INFO : topic #8 (0.116): 0.022*"market" + 0.017*"company" + 0.017*"risk" + 0.013*"portfolio" + 0.010*"investment" + 0.009*"s" + 0.008*"value" + 0.007*"security" + 0.006*"strategy" + 0.006*"global"
+2019-11-20 15:25:31,585 : INFO : topic diff=0.035536, rho=0.250000
+2019-11-20 15:25:31,616 : DEBUG : bound: at document #0
+2019-11-20 15:25:32,323 : INFO : -7.157 per-word bound, 142.7 perplexity estimate based on a held-out corpus of 152 documents with 87043 words
+2019-11-20 15:25:32,323 : INFO : PROGRESS: pass 15, at document #152/152
+2019-11-20 15:25:32,323 : DEBUG : performing inference on a chunk of 152 documents
+2019-11-20 15:25:32,530 : DEBUG : 122/152 documents converged within 40 iterations
+2019-11-20 15:25:32,530 : INFO : optimized alpha [0.020416878, 0.026856992, 0.033913594, 0.024352612, 0.030963458, 0.02675928, 0.10224336, 0.026345856, 0.11481907, 0.028276652]
+2019-11-20 15:25:32,530 : DEBUG : updating topics
+2019-11-20 15:25:32,546 : INFO : topic #0 (0.020): 0.008*"article" + 0.006*"s" + 0.005*"portfolio" + 0.005*"barron" + 0.004*"opportunity" + 0.004*"international" + 0.004*"heugh" + 0.004*"icon" + 0.004*"complete" + 0.003*"highlight"
+2019-11-20 15:25:32,546 : INFO : topic #3 (0.024): 0.028*"climate" + 0.017*"asset" + 0.016*"risk" + 0.015*"investor" + 0.013*"resilience" + 0.010*"real" + 0.009*"change" + 0.008*"design" + 0.008*"investment" + 0.007*"level"
+2019-11-20 15:25:32,546 : INFO : topic #2 (0.034): 0.020*"esg" + 0.017*"investment" + 0.012*"fund" + 0.012*"market" + 0.011*"asset" + 0.011*"equity" + 0.011*"factor" + 0.010*"investor" + 0.009*"hedge" + 0.009*"manager"
+2019-11-20 15:25:32,546 : INFO : topic #6 (0.102): 0.023*"risk" + 0.021*"market" + 0.018*"rate" + 0.016*"u.s" + 0.011*"credit" + 0.010*"security" + 0.009*"interest" + 0.009*"yield" + 0.008*"year" + 0.008*"low"
+2019-11-20 15:25:32,546 : INFO : topic #8 (0.115): 0.022*"market" + 0.017*"company" + 0.017*"risk" + 0.013*"portfolio" + 0.010*"investment" + 0.009*"s" + 0.008*"value" + 0.007*"security" + 0.006*"strategy" + 0.006*"global"
+2019-11-20 15:25:32,546 : INFO : topic diff=0.029195, rho=0.242536
+2019-11-20 15:25:32,577 : DEBUG : bound: at document #0
+2019-11-20 15:25:33,013 : INFO : -7.157 per-word bound, 142.8 perplexity estimate based on a held-out corpus of 152 documents with 87043 words
+2019-11-20 15:25:33,013 : INFO : PROGRESS: pass 16, at document #152/152
+2019-11-20 15:25:33,013 : DEBUG : performing inference on a chunk of 152 documents
+2019-11-20 15:25:33,195 : DEBUG : 123/152 documents converged within 40 iterations
+2019-11-20 15:25:33,197 : INFO : optimized alpha [0.019720644, 0.026048498, 0.033413876, 0.023597423, 0.03013249, 0.02590833, 0.10216964, 0.025608614, 0.11362504, 0.027434817]
+2019-11-20 15:25:33,197 : DEBUG : updating topics
+2019-11-20 15:25:33,207 : INFO : topic #0 (0.020): 0.008*"article" + 0.006*"s" + 0.005*"portfolio" + 0.005*"barron" + 0.004*"opportunity" + 0.004*"international" + 0.004*"heugh" + 0.004*"icon" + 0.004*"complete" + 0.003*"highlight"
+2019-11-20 15:25:33,207 : INFO : topic #3 (0.024): 0.029*"climate" + 0.017*"asset" + 0.016*"risk" + 0.015*"investor" + 0.013*"resilience" + 0.010*"real" + 0.009*"change" + 0.008*"design" + 0.007*"investment" + 0.007*"level"
+2019-11-20 15:25:33,207 : INFO : topic #2 (0.033): 0.020*"esg" + 0.017*"investment" + 0.012*"fund" + 0.012*"market" + 0.011*"asset" + 0.011*"equity" + 0.011*"factor" + 0.010*"investor" + 0.009*"manager" + 0.009*"hedge"
+2019-11-20 15:25:33,207 : INFO : topic #6 (0.102): 0.023*"risk" + 0.021*"market" + 0.018*"rate" + 0.016*"u.s" + 0.011*"credit" + 0.010*"security" + 0.009*"interest" + 0.009*"yield" + 0.008*"year" + 0.008*"low"
+2019-11-20 15:25:33,208 : INFO : topic #8 (0.114): 0.022*"market" + 0.017*"company" + 0.017*"risk" + 0.013*"portfolio" + 0.010*"investment" + 0.009*"s" + 0.008*"value" + 0.007*"security" + 0.006*"strategy" + 0.006*"global"
+2019-11-20 15:25:33,208 : INFO : topic diff=0.024277, rho=0.235702
+2019-11-20 15:25:33,229 : DEBUG : bound: at document #0
+2019-11-20 15:25:33,688 : INFO : -7.158 per-word bound, 142.8 perplexity estimate based on a held-out corpus of 152 documents with 87043 words
+2019-11-20 15:25:33,688 : INFO : PROGRESS: pass 17, at document #152/152
+2019-11-20 15:25:33,688 : DEBUG : performing inference on a chunk of 152 documents
+2019-11-20 15:25:33,871 : DEBUG : 124/152 documents converged within 40 iterations
+2019-11-20 15:25:33,873 : INFO : optimized alpha [0.019087875, 0.025324902, 0.032998815, 0.022912122, 0.029415525, 0.025179014, 0.10192987, 0.024938773, 0.112539284, 0.026673824]
+2019-11-20 15:25:33,873 : DEBUG : updating topics
+2019-11-20 15:25:33,884 : INFO : topic #0 (0.019): 0.008*"article" + 0.006*"s" + 0.005*"portfolio" + 0.005*"barron" + 0.004*"opportunity" + 0.004*"international" + 0.004*"heugh" + 0.004*"icon" + 0.004*"complete" + 0.004*"highlight"
+2019-11-20 15:25:33,884 : INFO : topic #3 (0.023): 0.029*"climate" + 0.017*"asset" + 0.016*"risk" + 0.015*"investor" + 0.013*"resilience" + 0.010*"real" + 0.009*"change" + 0.008*"design" + 0.007*"investment" + 0.007*"level"
+2019-11-20 15:25:33,884 : INFO : topic #2 (0.033): 0.020*"esg" + 0.017*"investment" + 0.012*"fund" + 0.012*"market" + 0.011*"asset" + 0.011*"equity" + 0.011*"factor" + 0.010*"investor" + 0.010*"manager" + 0.009*"hedge"
+2019-11-20 15:25:33,885 : INFO : topic #6 (0.102): 0.023*"risk" + 0.021*"market" + 0.018*"rate" + 0.016*"u.s" + 0.011*"credit" + 0.010*"security" + 0.009*"interest" + 0.009*"yield" + 0.008*"year" + 0.008*"low"
+2019-11-20 15:25:33,885 : INFO : topic #8 (0.113): 0.022*"market" + 0.017*"company" + 0.017*"risk" + 0.013*"portfolio" + 0.010*"investment" + 0.009*"s" + 0.008*"value" + 0.007*"security" + 0.006*"strategy" + 0.006*"global"
+2019-11-20 15:25:33,885 : INFO : topic diff=0.020424, rho=0.229416
+2019-11-20 15:25:33,911 : DEBUG : bound: at document #0
+2019-11-20 15:25:34,324 : INFO : -7.158 per-word bound, 142.8 perplexity estimate based on a held-out corpus of 152 documents with 87043 words
+2019-11-20 15:25:34,324 : INFO : PROGRESS: pass 18, at document #152/152
+2019-11-20 15:25:34,324 : DEBUG : performing inference on a chunk of 152 documents
+2019-11-20 15:25:34,490 : DEBUG : 122/152 documents converged within 40 iterations
+2019-11-20 15:25:34,493 : INFO : optimized alpha [0.018509785, 0.024658399, 0.032580134, 0.02228695, 0.02872785, 0.024515787, 0.10180547, 0.02432706, 0.11152966, 0.02598214]
+2019-11-20 15:25:34,493 : DEBUG : updating topics
+2019-11-20 15:25:34,503 : INFO : topic #0 (0.019): 0.009*"article" + 0.006*"s" + 0.005*"portfolio" + 0.005*"barron" + 0.004*"opportunity" + 0.004*"international" + 0.004*"heugh" + 0.004*"icon" + 0.004*"complete" + 0.004*"highlight"
+2019-11-20 15:25:34,503 : INFO : topic #3 (0.022): 0.029*"climate" + 0.017*"asset" + 0.016*"risk" + 0.015*"investor" + 0.013*"resilience" + 0.010*"real" + 0.009*"change" + 0.008*"design" + 0.007*"investment" + 0.007*"level"
+2019-11-20 15:25:34,503 : INFO : topic #2 (0.033): 0.020*"esg" + 0.017*"investment" + 0.012*"fund" + 0.012*"market" + 0.011*"asset" + 0.011*"equity" + 0.011*"factor" + 0.010*"investor" + 0.010*"manager" + 0.009*"hedge"
+2019-11-20 15:25:34,503 : INFO : topic #6 (0.102): 0.023*"risk" + 0.021*"market" + 0.018*"rate" + 0.016*"u.s" + 0.011*"credit" + 0.010*"security" + 0.009*"interest" + 0.009*"yield" + 0.008*"year" + 0.008*"low"
+2019-11-20 15:25:34,504 : INFO : topic #8 (0.112): 0.022*"market" + 0.017*"company" + 0.017*"risk" + 0.013*"portfolio" + 0.010*"investment" + 0.009*"s" + 0.008*"value" + 0.007*"security" + 0.006*"strategy" + 0.006*"global"
+2019-11-20 15:25:34,504 : INFO : topic diff=0.017394, rho=0.223607
+2019-11-20 15:25:34,527 : DEBUG : bound: at document #0
+2019-11-20 15:25:34,923 : INFO : -7.158 per-word bound, 142.8 perplexity estimate based on a held-out corpus of 152 documents with 87043 words
+2019-11-20 15:25:34,923 : INFO : PROGRESS: pass 19, at document #152/152
+2019-11-20 15:25:34,924 : DEBUG : performing inference on a chunk of 152 documents
+2019-11-20 15:25:35,076 : DEBUG : 123/152 documents converged within 40 iterations
+2019-11-20 15:25:35,077 : INFO : optimized alpha [0.017979432, 0.02407274, 0.0322791, 0.021714283, 0.028100763, 0.023909848, 0.101703316, 0.023766305, 0.110609114, 0.025350738]
+2019-11-20 15:25:35,077 : DEBUG : updating topics
+2019-11-20 15:25:35,090 : INFO : topic #0 (0.018): 0.009*"article" + 0.006*"s" + 0.005*"portfolio" + 0.005*"barron" + 0.004*"opportunity" + 0.004*"international" + 0.004*"heugh" + 0.004*"icon" + 0.004*"complete" + 0.004*"highlight"
+2019-11-20 15:25:35,090 : INFO : topic #3 (0.022): 0.029*"climate" + 0.017*"asset" + 0.016*"risk" + 0.015*"investor" + 0.013*"resilience" + 0.010*"real" + 0.009*"change" + 0.008*"design" + 0.007*"investment" + 0.007*"level"
+2019-11-20 15:25:35,090 : INFO : topic #2 (0.032): 0.020*"esg" + 0.017*"investment" + 0.012*"fund" + 0.012*"market" + 0.011*"asset" + 0.011*"equity" + 0.011*"factor" + 0.010*"investor" + 0.010*"manager" + 0.009*"hedge"
+2019-11-20 15:25:35,090 : INFO : topic #6 (0.102): 0.023*"risk" + 0.021*"market" + 0.018*"rate" + 0.016*"u.s" + 0.011*"credit" + 0.010*"security" + 0.009*"interest" + 0.009*"yield" + 0.008*"year" + 0.008*"low"
+2019-11-20 15:25:35,091 : INFO : topic #8 (0.111): 0.022*"market" + 0.017*"company" + 0.017*"risk" + 0.013*"portfolio" + 0.010*"investment" + 0.009*"s" + 0.008*"value" + 0.007*"security" + 0.006*"strategy" + 0.006*"global"
+2019-11-20 15:25:35,091 : INFO : topic diff=0.014980, rho=0.218218
+2019-11-20 15:25:35,104 : INFO : saving LdaState object under ./model/lda_model_msim_test_2019-11-20_15-25-35.txt.state, separately None
+2019-11-20 15:25:35,105 : DEBUG : {'transport_params': None, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'wb', 'uri': './model/lda_model_msim_test_2019-11-20_15-25-35.txt.state'}
+2019-11-20 15:25:35,118 : INFO : saved ./model/lda_model_msim_test_2019-11-20_15-25-35.txt.state
+2019-11-20 15:25:35,119 : DEBUG : {'transport_params': None, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'wb', 'uri': './model/lda_model_msim_test_2019-11-20_15-25-35.txt.id2word'}
+2019-11-20 15:25:35,123 : INFO : saving LdaModel object under ./model/lda_model_msim_test_2019-11-20_15-25-35.txt, separately ['expElogbeta', 'sstats']
+2019-11-20 15:25:35,123 : INFO : storing np array 'expElogbeta' to ./model/lda_model_msim_test_2019-11-20_15-25-35.txt.expElogbeta.npy
+2019-11-20 15:25:35,126 : INFO : not storing attribute state
+2019-11-20 15:25:35,126 : INFO : not storing attribute dispatcher
+2019-11-20 15:25:35,126 : INFO : not storing attribute id2word
+2019-11-20 15:25:35,126 : DEBUG : {'transport_params': None, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'wb', 'uri': './model/lda_model_msim_test_2019-11-20_15-25-35.txt'}
+2019-11-20 15:25:35,131 : INFO : saved ./model/lda_model_msim_test_2019-11-20_15-25-35.txt
+2019-11-20 15:25:35,132 : INFO : topic #0 (0.018): 0.009*"article" + 0.006*"s" + 0.005*"portfolio"
+2019-11-20 15:25:35,133 : INFO : topic #1 (0.024): 0.016*"market" + 0.016*"equity" + 0.014*"risk"
+2019-11-20 15:25:35,133 : INFO : topic #2 (0.032): 0.020*"esg" + 0.017*"investment" + 0.012*"fund"
+2019-11-20 15:25:35,133 : INFO : topic #3 (0.022): 0.029*"climate" + 0.017*"asset" + 0.016*"risk"
+2019-11-20 15:25:35,134 : INFO : topic #4 (0.028): 0.022*"company" + 0.017*"market" + 0.013*"plastic"
+2019-11-20 15:25:35,134 : INFO : topic #5 (0.024): 0.013*"2018" + 0.012*"space" + 0.011*"office"
+2019-11-20 15:25:35,134 : INFO : topic #6 (0.102): 0.023*"risk" + 0.021*"market" + 0.018*"rate"
+2019-11-20 15:25:35,134 : INFO : topic #7 (0.024): 0.022*"loan" + 0.020*"alternative" + 0.019*"lending"
+2019-11-20 15:25:35,135 : INFO : topic #8 (0.111): 0.022*"market" + 0.017*"company" + 0.017*"risk"
+2019-11-20 15:25:35,135 : INFO : topic #9 (0.025): 0.030*"water" + 0.019*"risk" + 0.015*"investment"
+2019-11-20 15:25:35,137 : DEBUG : Setting topics to those of the model: LdaModel(num_terms=6765, num_topics=10, decay=0.5, chunksize=200)
